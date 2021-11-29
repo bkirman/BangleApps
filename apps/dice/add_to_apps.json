@@ -1,0 +1,15 @@
+// Create an entry in apps.json as follows:
+{ "id": "dice",
+  "name": "Dice Roller",
+  "shortName":"Dice",
+  "version":"0.01",
+  "description": "An app for rolling a range of dice (d4,6,8,10,12,20). Used for random decision making, deciding who pays the bar bill, or how much damage the gnoll does. Shake your wrist to reroll the same die type",
+  "icon": "app.png",
+  "tags": "",
+  "supports" : ["BANGLEJS2"],  
+  "readme": "README.md",
+  "storage": [
+    {"name":"dice.app.js","url":"app.js"},
+    {"name":"dice.img","url":"app-icon.js","evaluate":true}
+  ]
+}
